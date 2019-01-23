@@ -25,5 +25,5 @@
     or 
     node script.js
 
-5 - If running script using 'nodemon script', to re-run script.js, just type rs after the line that says
+7. If running script using 'nodemon script', to re-run script.js, just type rs after the line that says
     '[nodemon] clean exit - waiting for changes before restart'

@@ -7,9 +7,11 @@ var driver = new webdriver.Builder()
     .forBrowser('chrome')
     .build();
 
-driver.get("http://41.78.73.114:9095/BrowserWeb");
+exports.T24AutoLogin = ()=>{
+    driver.get(`${config.URL}`);
 
-driver.findElement(By.id('signOnName')).sendKeys(`${config.USERNAME}`);
-driver.findElement(By.id('password')).sendKeys(`${config.PASSWORD}`);
-driver.findElement(By.id('sign-in')).submit();
+    driver.findElement(By.id('signOnName')).sendKeys(`${config.USERNAME}`);
+    driver.findElement(By.id('password')).sendKeys(`${config.PASSWORD}`);
+    driver.findElement(By.id('sign-in')).submit();
+}
 

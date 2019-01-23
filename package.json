@@ -14,6 +14,7 @@
   "dependencies": {
     "@types/node": "^10.12.18",
     "casper": "^0.1.1",
+    "express": "^4.16.4",
     "http": "0.0.0",
     "opn": "^5.4.0",
     "selenium-webdriver": "^4.0.0-alpha.1"

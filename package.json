@@ -16,6 +16,7 @@
     "casper": "^0.1.1",
     "express": "^4.16.4",
     "http": "0.0.0",
+    "morgan": "^1.9.1",
     "opn": "^5.4.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }

@@ -27,3 +27,5 @@
 
 7. If running script using 'nodemon script', to re-run script.js, just type rs after the line that says
     '[nodemon] clean exit - waiting for changes before restart'
+    
+8. on browser type http://localhost:3000
